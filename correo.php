@@ -6,7 +6,7 @@ if(isset($_POST['enviar'])){
         $email = $_POST['email'];
         $phone = $_POST['phone'];
         $message = $_POST['message'];
-        $header = "From: kevinmdz0023@gmail.com";
+        $header = "From: kishustd@gmail.com";
         $header. = "X-Mailer: php/". phpversion();
         $mail = mail($name,$email,$phone,$message);
         if ($mail){
